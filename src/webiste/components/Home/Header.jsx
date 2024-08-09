@@ -5,7 +5,7 @@ import logo from '../../../assests/pharmacy_logo2.jpg';
 const Header = () => {
     return (
         <>
-            <nav className="navbar  navbar-expand-lg navbar-light bg-white ">
+            <nav className="navbar  navbar-expand-lg navbar-light bg-white overflow-hidden ">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
                         <img src={logo} className="img-fluid" alt="Pharmacy Logo" />

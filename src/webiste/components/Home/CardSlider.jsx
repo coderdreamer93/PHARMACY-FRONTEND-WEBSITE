@@ -122,7 +122,7 @@ const CardTitle = styled.h3`
       setClickedIndex(index === clickedIndex ? null : index);
     };
   return (
-    <div className="slider-container">
+    <div className="slider-container overflow-hidden">
          <StyledSlider>
       <Slider {...settings}>
         {data.map((item, index) => (

@@ -61,7 +61,7 @@ const data = [
 
 const Deal = () => {
     return (
-        <div className='deal-section'>
+        <div className='deal-section overflow-hidden'>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 pt-3">

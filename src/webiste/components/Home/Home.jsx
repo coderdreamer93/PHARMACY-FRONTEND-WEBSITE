@@ -18,21 +18,21 @@ import Brand from './Brand'
 
 const Home = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
       
-      <>
+    
         <Header />
-        <Slider />
+         <Slider /> 
         <Catagories />
         <Featured/>
         <TopSellingItems/>
-        <Deal/>
-        <BlogPost/>
+        <Deal/> 
+       <BlogPost/> 
   <Brand/>
 
         <Footer/>
         
-   </>
+  
     </div>
   )
 }

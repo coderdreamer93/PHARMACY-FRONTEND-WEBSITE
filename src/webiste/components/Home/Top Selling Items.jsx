@@ -63,7 +63,7 @@ const data = [
 
 const TopSellingItems = () => {
   return (
-    <div className='top-selling-section'>
+    <div className='top-selling-section overflow-hidden'>
       <div className="container">
         <div className="row">
           <div className="col-green pt-1">

@@ -3,10 +3,7 @@
     padding: 2rem 0;
   }
   
-  .sub-section .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+
   
   .sub-section .row {
     display: flex;

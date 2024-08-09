@@ -5,6 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import 'bootstrap/js/dist/dropdown';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 // import Dashboard from './containers/Dashboard';
 // import Customer from './containers/Customer';
 // import Sales from './containers/Sales';

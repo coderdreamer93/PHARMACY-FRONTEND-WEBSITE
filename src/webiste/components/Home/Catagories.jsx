@@ -29,13 +29,15 @@ import CardSlider from './CardSlider';
                 }
             },
             {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    initialSlide: 2
-                }
-            },
+              breakpoint: 991,
+              settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 3,
+                  infinite: true,
+                  dots: true
+              }
+          },
+           
             {
                 breakpoint: 480,
                 settings: {
@@ -76,14 +78,14 @@ const data = [
 
 const Categories = () => {
   return (
-    <div className='sub-section'>
+    <div className='sub-section overflow-hidden'>
       <div className="container">
         <div className="row">
           <div className="col-light green-12 pt-3">
-            <h2 className='main-heading lora font-bold text-center'>Categories</h2>
+            <h2 className='main-heading font-bold text-center'>Categories</h2>
                   </div>
                   <div className="col-light-green-12">
-            <CardSlider  settings={settings} data={data} />
+            <CardSlider  settings={settings} data={data} style="border:1ps solid black" />
                       
                   </div>
         </div>

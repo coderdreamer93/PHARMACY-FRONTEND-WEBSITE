@@ -5,7 +5,7 @@ import logo from '../../../assests/pharmacy_logo2.jpg';
 const Footer = () => {
   return (
       <>
-          <footer className='blue'>
+          <footer className='blue overflow-hidden'>
           <div className="container-fluid footer">
               <div className="container">
                   <div className="row py-5">
