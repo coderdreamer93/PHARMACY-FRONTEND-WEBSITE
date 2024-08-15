@@ -4,33 +4,40 @@ import Footer from './Footer'
 
 import './website.css'
 import Slider from './Slider'
+
 import Catagories from './Catagories'
 import Featured from './Featured'
 import TopSellingItems from './Top Selling Items'
 import Deal from './Deal'
 import BlogPost from './BlogPost'
+
 import Brand from './Brand'
 
-
-
-
-
+import BabySection from './BabySection'
+import NutritionsSection from './NutritionsSection'
+import MadicanSection from './MadicanSection'
+import OTCAndHealthNeed from './OTCAndHealthNeed'
+import {  Router, Route, Routes } from 'react-router-dom';
 
 const Home = () => {
   return (
     <div className='overflow-hidden'>
       
     
-        <Header />
+    
          <Slider /> 
+  
         <Catagories />
-        <Featured/>
+        {/* <Featured/> */}
         <TopSellingItems/>
-        <Deal/> 
+        {/* <Deal/>  */}
        <BlogPost/> 
-  <Brand/>
-
-        <Footer/>
+  {/* <Brand/> */}
+  <BabySection/>
+<NutritionsSection/>
+{/* <MadicanSection/> */}
+<OTCAndHealthNeed/>
+   
         
   
     </div>

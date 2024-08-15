@@ -63,13 +63,13 @@ const data = [
 
 const TopSellingItems = () => {
   return (
-    <div className='top-selling-section overflow-hidden'>
+    <div className='sub-section'>
       <div className="container">
         <div className="row">
-          <div className="col-green pt-1">
-            <h2 className='main-heading text-center'>Top Selling Items</h2>
+          <div className="col-light green-12 pt-3">
+            <h2 className='main-heading font-bold text-center'>Top Selling Items</h2>
           </div>
-          <div className="col-green">
+          <div className="col-light-green-12">
             <CardSlider settings={settings} data={data} />
           </div>
         </div>

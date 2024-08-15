@@ -1,16 +1,16 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import logo from '../../../assests/pharmacy_logo2.jpg';
+import logo from '../../../assests/footer_logo.jpg';
 const Footer = () => {
   return (
       <>
-          <footer className='blue overflow-hidden'>
+          <footer className=' overflow-hidden ps-5 pe-5' style={{backgroundColor:'#7fd0ff'}}>
           <div className="container-fluid footer">
-              <div className="container">
+            
                   <div className="row py-5">
                       <div className="col-lg-3 col-md-6">
-                          <a href='' className='navbar-brand d-block'><img src={logo} className="img-fluid" alt="" /></a>
+                          <a href='' className='f-logo '><img src={logo} className="img-fluid" alt="" /></a>
                           <p className='pt-2'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, veritatis!</p>
                           <div className="footer-social">
                               <a href=''>
@@ -50,11 +50,11 @@ const Footer = () => {
                       </div>
                   </div>
               </div>
-              </div>
+              
               <div className="container-fluid footer-foot">
                   <div className="container">
                       <div className="text-center py-2">
-                          <h6 className=' text-white'>© 2024 abc. Design</h6>
+                          <h6 >© 2024 abc. Design</h6>
                       </div>
                   </div>
               </div>

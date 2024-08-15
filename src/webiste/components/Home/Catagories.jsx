@@ -12,7 +12,7 @@ import CardSlider from './CardSlider';
         slidesToShow: 4,
         slidesToScroll: 4,
         initialSlide: 0,
-        autoplay: true,
+        autoplay: false,
         speed: 2000,
         autoplaySpeed: 5000,
         cssEase: "linear",
@@ -78,14 +78,15 @@ const data = [
 
 const Categories = () => {
   return (
-    <div className='sub-section overflow-hidden'>
+    <div className='sub-section'>
       <div className="container">
         <div className="row">
           <div className="col-light green-12 pt-3">
             <h2 className='main-heading font-bold text-center'>Categories</h2>
                   </div>
                   <div className="col-light-green-12">
-            <CardSlider  settings={settings} data={data} style="border:1ps solid black" />
+                
+            <CardSlider  settings={settings} data={data}   />
                       
                   </div>
         </div>

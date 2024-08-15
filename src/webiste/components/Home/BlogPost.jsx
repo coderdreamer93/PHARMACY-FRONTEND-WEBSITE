@@ -21,7 +21,7 @@ const blogData = [
 
 const BlogPost = () => {
   return (
-    <div className="blog-section overflow-hidden">
+    <div className="sub-section">
       <div className="container">
         <div className="row">
           <h3 className='main-heading text-center'>Blogs</h3>

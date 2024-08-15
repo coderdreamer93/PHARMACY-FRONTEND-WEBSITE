@@ -61,7 +61,7 @@ body {
 }
 
 .slick-slide {
-    padding: 0 10px; /* Adjust the padding to match the card padding */
+    padding: 10px; /* Adjust the padding to match the card padding */
 }
 
 /* Card styles */
